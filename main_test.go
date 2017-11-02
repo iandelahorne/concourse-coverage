@@ -12,11 +12,11 @@ func TestDoSomething(t *testing.T) {
 }
 
 func TestOtherThing(t *testing.T) {
-	arg := 2 
-	expected := 15
+	arg := 2
+	expected := 26
 	actual := doOtherThing(arg)
 
 	if actual != expected {
 		t.Fail()
-	}	
+	}
 }

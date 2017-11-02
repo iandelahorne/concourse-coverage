@@ -1,7 +1,5 @@
 package main
 
-import "log"
-
 func doSomething(arg int) int {
 	return 17 * arg
 }
@@ -11,5 +9,5 @@ func doOtherThing(arg int) int {
 }
 
 func main() {
-	log.Println("Hello, world")
+
 }
